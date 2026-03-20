@@ -4,10 +4,10 @@ import {_paths, GitRepoMap} from '#guoba.platform'
 import {mkdirSync} from './common.js'
 
 const repos = [
-  {name: 'PluginsIndex', url: 'https://gitee.com/yhArcadia/Yunzai-Bot-plugins-index.git'},
-  {name: 'GuobaResources', url: 'https://gitee.com/guoba-yunzai/resources.git'},
+  {name: 'PluginsIndex', url: 'https://github.com/yhArcadia/Yunzai-Bot-plugins-index.git'},
+  {name: 'GuobaResources', url: 'https://github.com/guoba-yunzai/guoba-plugin.git'},
 
-  // {name: 'GuobaTest', url: 'https://gitee.com/guoba-yunzai/test.git'},
+  // {name: 'GuobaTest', url: 'https://github.com/guoba-yunzai/test.git'},
 ]
 
 export const repoPath = path.join(_paths.pluginRoot, 'data/repo')
